@@ -23,10 +23,11 @@
         android:textSize="30sp" />
     <!-- 가중치 (weight)를 사용할꺼면 height 를 0dp로 놔야함-->
     <TextView
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
         android:background="#14308c"
         android:text="Hello"
         android:textColor="#ffffff"
