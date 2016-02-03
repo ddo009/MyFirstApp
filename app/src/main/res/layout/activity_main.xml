@@ -5,16 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    <!-- android:orientation="vertical"는
+    아래로 쭉 내려가면서 표현하게하는 명령어임.-->
 
     <!-- 텍스트 뷰-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#512da8"
+        android:background="#4a148c"
         android:text="Hello World"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/girls_day" />
 
 </LinearLayout>
