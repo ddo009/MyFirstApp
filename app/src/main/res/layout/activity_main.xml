@@ -19,21 +19,19 @@
         android:text="Hello World"
         android:textColor="#ffffff"
         android:textSize="30sp" />
-
+    <!-- 가중치 (weight)를 사용할꺼면 height 를 0dp로 놔야함-->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#4a148c"
+        android:layout_height="wrap_content"
+        android:background="#14308c"
         android:text="Hello World"
         android:textColor="#ffffff"
         android:textSize="30sp" />
-
+    <!--weight가 설정된 애들끼리 남은 layout을 먹음-->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#4a148c"
+        android:layout_height="wrap_content"
+        android:background="#55c26b"
         android:text="Hello World"
         android:textColor="#ffffff"
         android:textSize="30sp" />
