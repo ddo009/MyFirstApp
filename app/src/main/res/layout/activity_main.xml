@@ -16,33 +16,83 @@
     <!-- id = "@+id/text_view_1 로 id값을 잡아준거임-->
     <TextView
         android:id="@+id/text_view_1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         android:background="#4a148c"
-        android:text="Hello"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
-    <!-- 가중치 (weight)를 사용할꺼면 height 를 0dp로 놔야함-->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/text_view_2"
-        android:layout_centerVertical="true"
-        android:background="#14308c"
-        android:text="Hello"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
-    <!--weight가 설정된 애들끼리 남은 layout을 먹음-->
-    <TextView
-        android:id="@+id/text_view_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/text_view_1"
-        android:background="#55c26b"
-        android:text="Hello"
+        android:text="Android"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/text_view_1"
+        android:text="왼쪽"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_view_1"
+        android:text="오른쪽"
+        android:textSize="30sp" />
+
+    <!-- 좌측 하단-->
+    <TextView
+        android:id="@+id/text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#1976d2"
+        android:text="Android"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/text_view_2"
+        android:text="오른쪽"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_2"
+        android:text="위쪽"
+        android:textSize="30sp" />
+    <!-- 2번줄 끝-->
+
+    <!-- 우측하단-->
+    <!--weight가 설정된 애들끼리 남은 layout을 먹음-->
+    <TextView
+        android:id="@+id/text_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#1b5e20"
+        android:text="Android"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/text_view_3"
+        android:text="왼쪽"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_3"
+        android:layout_alignParentRight="true"
+        android:text="위쪽"
+        android:textSize="30sp" />
 
 </RelativeLayout>
