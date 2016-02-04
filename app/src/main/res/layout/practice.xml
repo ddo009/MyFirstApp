@@ -12,29 +12,6 @@
         android:scaleType="centerCrop"
         android:src="@drawable/girls_day" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:autoLink="all"
-            android:background="#563e8f"
-            android:text="http://blog.naver.com/ddo009"
-            android:textColor="#FFFFFF" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:autoLink="all"
-            android:background="#563e8f"
-            android:text="http://cafe.naver.com/funnyguy"
-            android:textColor="#FFFFFF" />
-    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -42,9 +19,13 @@
         android:background="#563e8f"
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
-        android:text="카페로 초대합니다"
+        android:text="당신을 초대합니다"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
+
+    <!-- Linearlayout으로 묶어서 공통된 부분을 같이 지정해주면
+    코드가 깔끔해지고 좋음 단 너무 묶어서 하위로 계속 들어가면
+    갈수록 속도가 느려짐-->
 
     <TextView
         android:layout_width="match_parent"
@@ -53,7 +34,7 @@
         android:paddingBottom="16dp"
         android:paddingLeft="16dp"
         android:paddingTop="8dp"
-        android:text="유머투데이로 놀러오세요"
+        android:text="hello"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 </LinearLayout>
