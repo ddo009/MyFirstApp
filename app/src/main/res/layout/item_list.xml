@@ -5,7 +5,9 @@
     android:orientation="horizontal"
     android:padding="16dp">
 
-    <!-- padding 은 상하좌우 전부 16의 범위를 먹음-->
+    <!-- padding 은 상하좌우 전부 컨텐츠존재 범위를 늘림-->
+    <!-- margin 은 상하좌우 전부 컨텐츠 자체를 떨어뜨림-->
+
 
     <ImageView
         android:layout_width="100dp"
