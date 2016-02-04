@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- padding 은 상하좌우 전부 16의 범위를 먹음-->
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         android:src="@drawable/girls_day" />
 
@@ -16,8 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
         android:orientation="vertical">
 
         <TextView
