@@ -31,4 +31,5 @@
         android:gravity="right"
         android:text="안녕하세요"
         android:textSize="32sp" />
+
 </FrameLayout>
