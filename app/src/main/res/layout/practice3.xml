@@ -16,7 +16,7 @@
         android:id="@+id/msg_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hello"
+        android:text=""
         android:visibility="invisible" />
 
 

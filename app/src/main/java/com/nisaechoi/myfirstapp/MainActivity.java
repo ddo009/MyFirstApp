@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    // 안드로이드의 4대 구성요소
+    // 1.Activity (화면을 구성)
+    //   - Textview , CheckBox , Imageview , Button , Scrollview
+    // 2.Broadcast Reciver (각 방송을 수신함)
+    // 3.Service (화면이 없는 Activity)
+    // 4. content provider (컨텐츠 제공자 , DB를 공유함)
 
     @Override
     public void onClick(View v) {
