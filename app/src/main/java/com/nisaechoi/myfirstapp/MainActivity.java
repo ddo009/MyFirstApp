@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 아래랑 위는 동일함
 
         findViewById(R.id.button1).setOnClickListener(this);
-
     }
 
     @Override
