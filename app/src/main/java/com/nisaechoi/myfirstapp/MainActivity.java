@@ -47,8 +47,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toast.makeText(MainActivity.this, "check" + isChecked, Toast.LENGTH_SHORT).show();
         if (isChecked) {
             mTextview.setText("체크됨");
+            mTextview.setVisibility(View.VISIBLE);
         } else {
             mTextview.setText("");
+            mTextview.setVisibility(View.INVISIBLE);
         }
     }
 }
